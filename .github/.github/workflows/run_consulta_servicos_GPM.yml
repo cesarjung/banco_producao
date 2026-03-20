@@ -28,6 +28,6 @@ jobs:
 
       - name: Run script
         env:
-          GOOGLE_CREDENTIALS_B64: ${{ secrets.GOOGLE_CREDENTIALS_B64 }}
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
         run: |
           python compilador_consulta_servicos_GPM.py
