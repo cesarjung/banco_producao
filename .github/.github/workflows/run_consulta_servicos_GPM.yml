@@ -3,7 +3,7 @@ name: Consulta Serviços GPM
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */4 * * *"  # a cada 4h (UTC)
+    - cron: "0 */4 * * *"
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
